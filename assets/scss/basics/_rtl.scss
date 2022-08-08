@@ -1,0 +1,27 @@
+html[dir="rtl"] {
+  .navbar-toggler {
+    right: unset !important;
+    left: 0;
+  }
+  .imageSlider,
+  .main-card {
+    .share {
+      left: 10px;
+      right: unset !important;
+    }
+    .location {
+      left: 20px;
+      right: unset !important;
+    }
+  }
+  .custom-a {
+    svg {
+      transform: rotate(180deg);
+    }
+    &:hover {
+      svg {
+        transform: rotate(180deg) translateX(10px);
+      }
+    }
+  }
+}

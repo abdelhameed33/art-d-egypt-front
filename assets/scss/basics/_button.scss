@@ -1,0 +1,53 @@
+.custom-btn {
+  background-color: $main;
+  color: #fff;
+  border-radius: 7px;
+  padding: 8px 15px;
+  transition: all 0.5s ease-in-out;
+  border: 2px solid $main;
+
+  &:disabled{
+    opacity: 0.5;
+    &:hover {
+      background-color: $main;
+      color:#FFF;
+      svg {
+        fill: #000;
+      }
+    }
+  }
+  svg {
+    fill: #fff;
+    width: 20px;
+  transition: all 0.5s ease-in-out;
+  margin-inline-end: 10px;
+  }
+  &:hover {
+    background-color: transparent;
+    color: $main;
+    svg {
+      fill: #000;
+    }
+  }
+  &.white {
+    background-color: transparent;
+    border: 2px solid #fff;
+    &:hover {
+      background-color: $main;
+      color: #fff;
+      border: 2px solid $main;
+    }
+  }
+}
+
+.custom-a {
+  margin-inline-end: 10px;
+  svg {
+    transition: all 0.5s ease-in-out;
+  }
+  &:hover {
+    svg {
+      transform: translateX(10px);
+    }
+  }
+}

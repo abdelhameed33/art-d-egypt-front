@@ -1,0 +1,136 @@
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: unset;
+}
+.dropdown-item {
+  img {
+    margin-inline-start: 20px;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(24, 24, 24);
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+//form-control
+.form-control {
+  // background: transparent;
+  border-radius: 0;
+  color: #fff;
+  border: 1px solid #b1bbce;
+  transition: all 0.3s ease-in-out;
+  &.black{
+  color: #000;
+  &:hover,
+  &:focus {
+    color: #000;
+    border: 1px solid #000;
+  }
+  }
+  &:hover,
+  &:focus {
+    // background: transparent;
+    border-radius: 0;
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: unset;
+  }
+  &:focus {
+    padding-inline-start: 20px;
+  }
+}
+
+// section
+.s-heading {
+  font-size: 36px;
+  color: $main;
+  opacity: 0.75;
+}
+
+@media (max-width: 776px) {
+  .s-heading {
+    font-size: 30px;
+  }
+
+}
+.swiper{
+  // overflow: unset !important;
+  padding-bottom: 50px;
+}
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom: 0px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  width: 20px;
+  height: 20px;
+
+}
+.swiper-pagination-bullet-active{
+  background-color: #000;
+}
+
+.swiper-wrapper{
+  align-items: center;
+}
+
+ngx-masonry-gallery img{
+  cursor: pointer !important;
+}
+
+
+
+select ,
+select option{
+  color: #000 !important;
+}
+.iframe{
+  iframe{
+    width: 100% !important;
+  }
+}
