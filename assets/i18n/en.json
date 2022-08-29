@@ -2,6 +2,7 @@
 "lang":"En",
 "Home":"Home",
 "exhibitions":"Exhibitions",
+"exhibition_map":"Exhibition Map",
 "collateral-initiatives":"Collateral Initiatives",
 "community-engagement":"Community Engagement",
 "Search":"Search",
@@ -16,6 +17,7 @@
 "Support":"Support",
 "Press_Booklet":"Press Booklet",
 "Go_to_artsy":" Go to artsy",
+"UPLOAD_FILE":"Upload a file",
 "About_us":"About Us",
 "Company":"Company",
 "Connect_with_us":"Connect with us",
@@ -46,6 +48,7 @@
 "Collateral":"Collateral",
 "Annual":"Annual",
 "All":"All",
+"About":"About",
 "Type":"Type",
 "Watch_All_Exhibitions":"Watch All Exhibitions",
 "Artworks":"Artworks",
@@ -71,6 +74,6 @@
 "size":"Size",
 "gallary":"ArtWork Gallary",
 "Explore_our_exhibitions":"Explore Our Exhibitions",
-"":"",
-"":""
+"News":"News",
+"Watch_more":"Watch More"
 }
