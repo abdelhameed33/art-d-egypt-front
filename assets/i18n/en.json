@@ -2,7 +2,8 @@
 "lang":"En",
 "Home":"Home",
 "exhibitions":"Exhibitions",
-"exhibition_map":"Exhibition Map",
+"exhibition_map":"Exhibition Snapshot",
+"exhibition_Tour":"Exhibition Tour",
 "collateral-initiatives":"Collateral Initiatives",
 "community-engagement":"Community Engagement",
 "Search":"Search",
@@ -74,6 +75,6 @@
 "size":"Size",
 "gallary":"ArtWork Gallary",
 "Explore_our_exhibitions":"Explore Our Exhibitions",
-"News":"News",
+"News":"Press",
 "Watch_more":"Watch More"
 }
